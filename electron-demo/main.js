@@ -6,7 +6,7 @@ const createWindow = () => {
   })
 
   
-  win.loadURL('http://jx.1000phone.net/')
+  win.loadFile('index.html')
 }
 
 app.whenReady().then(() => {
